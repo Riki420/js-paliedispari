@@ -8,7 +8,14 @@ console.log('userWord:' + userWord );
 
 //con split creo un array con le lettere della parola
 userWordSplit = userWord.split('');
-console.table(userWordSplit);
+console.log('Parola divisa:' + userWordSplit);
 
+//inverto il senso della lista appena creata
+userWordSplit = userWordSplit.reverse();
+console.log('Lettere invertite: ' + userWordSplit);
+
+//riunisco le lettere per ottenere la stringa
+var userWordReverse = userWordSplit.join('');
+console.log('' + userWordReverse);
 
 
