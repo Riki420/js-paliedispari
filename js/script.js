@@ -57,3 +57,5 @@ function wordPali(){
     }
 
 }
+
+wordPali();
