@@ -13,3 +13,13 @@ Dichiariamo chi ha vinto.*/
 //* 5 STABILISCO SE PARI O DISPARI
 //* 6 DICHIARO IL VINCITORE
 
+
+var buttonPari = document.getElementById('pari');
+var comChoice = Math.floor(Math.round()* 5) + 1;
+
+
+buttonPari.addEventListener('click', function(){
+    var userChoice = parseInt(prompt('scegli un numero da 1 a 5'));
+    console.log(userChoice);
+    
+})
