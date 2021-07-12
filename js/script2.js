@@ -21,10 +21,11 @@ var comChoice = Math.floor(Math.round()* 5) + 1;
 buttonPari.addEventListener('click', function(){
     var userChoice = parseInt(prompt('scegli un numero da 1 a 5'));
 
+    var i = 0
     while(!userChoice){
         alert('inserisci un numero');
         userChoice = parseInt(prompt('scegli un numero da 1 a 5'));
         console.log(userChoice);
-
+        i++;
     }
 })

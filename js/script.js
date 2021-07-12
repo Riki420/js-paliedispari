@@ -40,13 +40,13 @@ Creare una funzione per capire se la parola inserita è palindroma */
 var userWord = prompt('inserisci una parola').toString();
 
 //creo una funzione
-
 function wordPali(){
     for(var i = 0; i < userWord.length; i++){
         userWordSplit = userWord.split('');
         userWordSplit = userWordSplit.reverse();
         var userWordReverse = userWordSplit.join('');
     }
+    
     //verifico se le parole rovesciate sono o non sono uguali
     if(userWord == userWordReverse){
         console.log('La parola è palindroma');
