@@ -20,9 +20,10 @@ console.log('Parola riunita: ' + userWordReverse);
 
 //verifico se la parola inserita dall'utente
 // è uguale alla parola invertita
-
 if(userWord == userWordReverse){
     console.log('La parola è palindroma');
-  } else {
+    document.getElementById('palindromo').innerHTML = 'La tua parola è' + userWord +  ' è palindroma.'
+} else {
     console.log('La parola non è palindroma');
-  }
+    document.getElementById('no-palindromo').innerHTML = 'La tua parola è ' + userWord + ' non è palindroma.'
+}

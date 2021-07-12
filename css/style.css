@@ -3,3 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.ff-lucida{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fs-4{
+    font-size: 1.4em;
+}
+
+.my-2{
+    margin: 20px 0;
+}
+
+.mt-300{
+    margin-top: 300px;
+}
